@@ -1,0 +1,31 @@
+ul.i img {
+  display: block;
+  height: 115px;
+  width: 115px;
+}
+
+ul.i li {
+  float: left;
+  padding: 20px;
+}
+
+ul.i {
+  margin: auto;
+  list-style: none;
+  width: 780px;
+}
+
+ul.i h5{
+  text-align: center;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.projects-list {
+  margin: auto;
+  width: 800px;
+}
