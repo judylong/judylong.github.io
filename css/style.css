@@ -278,6 +278,7 @@ body.color-6 #footer {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4Cffffff, endColorstr=#4Cffffff);
 	position: fixed;
 	height: 50px;
+	z-index: 1;
 }
 #nav-button{
 	display: none;

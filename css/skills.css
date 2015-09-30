@@ -29,3 +29,83 @@ div.projects-list {
   margin: auto;
   width: 800px;
 }
+
+div.sshot-div {
+  width: 400px;
+  height: 260px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgb(221,221,221);
+}
+
+img.sshot {
+
+}
+
+div.hover-links {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: rgba(0,0,0,0.7);
+
+}
+
+div.hover-links:hover {
+  opacity: 100;
+  transition: opacity 600ms ease;
+}
+
+div.hover-links-a {
+  /*margin: auto;*/
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  margin: 0px auto;
+	font-weight: normal;
+	line-height: 1.3;
+	color: inherit;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 63%;
+}
+
+div.hover-links-a a {
+  padding: 5px 15px;
+  border-radius: 3px;
+  margin: 0px 20px;
+  /*margin: auto;*/
+  border: 1px solid #e74c3c;
+  float: left;
+}
+
+div.hover-links-a2 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  margin: 0px auto;
+	font-weight: normal;
+	line-height: 1.3;
+	color: inherit;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 35%;
+}
+
+div.hover-links-a2 a {
+  padding: 5px 15px;
+  border-radius: 3px;
+  margin: 0px 20px;
+  /*margin: auto;*/
+  border: 1px solid #e74c3c;
+  float: left;
+}
