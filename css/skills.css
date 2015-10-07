@@ -109,3 +109,22 @@ div.hover-links-a2 a {
   border: 1px solid #e74c3c;
   float: left;
 }
+
+ul.contact-icons {
+  list-style: none;
+  margin: auto;
+  display: inline-block;
+}
+
+ul.contact-icons li {
+  float: left;
+  padding: 20px;
+}
+
+div.section a {
+  border-bottom: 0px;
+}
+
+div.section a:hover {
+  color: #e81c1c;
+}
