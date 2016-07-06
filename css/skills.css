@@ -128,3 +128,8 @@ div.section a {
 div.section a:hover {
   color: #e81c1c;
 }
+
+td li {
+  list-style-position: outside;
+  margin-left: 1.5em;
+}
