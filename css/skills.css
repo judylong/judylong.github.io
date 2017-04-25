@@ -36,10 +36,16 @@ div.sshot-div {
   position: relative;
   overflow: hidden;
   border: 1px solid rgb(221,221,221);
+  background-color: white;
 }
 
 img.sshot {
 
+}
+
+img.sshot2 {
+    height: 260px;
+    padding-left: 20px;
 }
 
 div.hover-links {
