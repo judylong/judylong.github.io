@@ -1,12 +1,14 @@
 ul.i img {
   display: block;
-  height: 115px;
-  width: 115px;
+  height: 85px;
+  width: 85px;
+  margin:auto;
 }
 
 ul.i li {
   float: left;
-  padding: 20px;
+  padding: 15px;
+  width: 100px;
 }
 
 ul.i {
