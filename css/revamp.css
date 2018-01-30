@@ -1,0 +1,84 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #474344;
+    color: #f0e7e0;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+h1, h3, a {
+    color: #f7435e;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*h1, a {
+    color: #f7435e;
+    font-family: 'Oswald', sans-serif;
+}*/
+
+.img-responsive {
+    /*max-width: 700px;*/
+    max-height: 400px;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+li img {
+    height: 50px;
+    margin: 10px;
+}
+
+ul.i {
+    list-style: none;
+    margin: auto;
+}
+
+ul.i li {
+    float: left;
+    height: 100px;
+}
+
+ul.i li h5 {
+    text-align: center;
+
+}
+
+.contain-img {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.sub-contact {
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px;
+}
+
+small a {
+    color: #777;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+a:hover {
+    color: white;
+}
+
+.vertical-line {
+    border-left: thin solid;
+}
+
+.bullet {
+    /*padding: 0px;*/
+    margin: 0;
+}
